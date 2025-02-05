@@ -1,0 +1,38 @@
+#root {
+    margin: 0 auto;
+    padding: 0rem;
+    text-align: center;
+}
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+}
+
+.AppBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    max-height: 3vh;
+    width: 100%;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+
+.content {
+    padding: 2vh;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
