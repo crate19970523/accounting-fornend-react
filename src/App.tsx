@@ -18,7 +18,7 @@ const App = () => {
             cookies.set('token', tokenFromUrl, {path: '/'});
             window.history.replaceState({}, document.title, url.pathname);
         } else if (!token && !tokenFromUrl) {
-            location.href = import.meta.env.VITE_ACCOUNT_URL + "?redirect_uri=" + location.href;
+            location.href = "https://account-test.crater2018.com/login?redirect_uri=" + location.href;
         } if (tokenFromUrl && token !== tokenFromUrl) {
             cookies.set('token', tokenFromUrl, {path: '/'});
             window.history.replaceState({}, document.title, url.pathname);
